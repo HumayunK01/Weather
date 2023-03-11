@@ -107,3 +107,29 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+@media only screen and (max-width: 450px) {
+  .card .search input {
+    margin-right: 5px;
+    padding: 10px 0px 10px 20px;
+    height: 45px;
+    font-size: 14px;
+  }
+  .card .search button {
+    width: 45px;
+    height: 45px;
+  }
+  .card .search button img {
+    width: 15px;
+  }
+  .details {
+    padding: 0;
+  }
+  .col img {
+    width: 30px;
+  }
+  .humidity,
+  .wind {
+    font-size: 20px;
+  }
+}
